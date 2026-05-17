@@ -42,7 +42,7 @@
 
             for (int i = 0; i < sizes.length; i++) {
                 int n = sizes[i];
-                System.out.println("\n=== " + labels[i] + " ===");
+                System.out.println("\n    " + labels[i] + "    ");
                 Graph g = buildGraph(n);
 
                 System.out.println("  Graph: " + g.vertexCount() + " vertices, "
@@ -74,7 +74,7 @@
 
             String[] sizeLabels = { "10  vertices", "30  vertices", "100 vertices" };
             for (int i = 0; i < sizes.length; i++) {
-                System.out.printf("║ %-16s ║ %,15d ║ %,15d ║%n",
+                System.out.printf("  %-16s   %,15d   %,15d  %n",
                         sizeLabels[i], results[i][0], results[i][1]);
             }
 
