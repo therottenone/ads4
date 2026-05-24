@@ -12,6 +12,7 @@ public class Main {
             smallGraph.addEdge(i, (i + 2) % 10);
         }
 
+
         smallGraph.printGraph();
         System.out.println();
         smallGraph.bfs(0);

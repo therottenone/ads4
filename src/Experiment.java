@@ -85,6 +85,7 @@
             System.out.println("JVM warm-up, cache effects, and Queue vs Stack overhead.");
         }
 
+
         private void silentBfs(Graph g, int start) {
             java.io.PrintStream original = System.out;
             System.setOut(new java.io.PrintStream(java.io.OutputStream.nullOutputStream()));

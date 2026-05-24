@@ -10,6 +10,7 @@ public class Edge {
         this.weight      = weight;
     }
 
+
     public Vertex getSource() { return source; }
 
     public Vertex getDestination() { return destination; }
